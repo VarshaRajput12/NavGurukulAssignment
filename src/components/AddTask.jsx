@@ -55,7 +55,7 @@ const AddTask = () => {
         <form onSubmit={handleNewTaskSubmit} className="form">
           <input
             type="text"
-            placeholder="Enter new task"
+            placeholder="Write a note"
             value={newTask}
             onChange={handleNewTaskChange}
           />
